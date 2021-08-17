@@ -1,0 +1,40 @@
+*{
+	font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.head-top{
+	height: 30px;
+	text-align: center;
+	background-color: #F8F9F9;
+}
+.head-top p{
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 30px;
+	color: #777777;
+}
+.head-bottom {
+	display: flex;
+	justify-content: space-between;
+}
+.head-bottom .logo{
+	padding-left: 50px;
+}
+.menu{
+	margin-left: 150px;
+	padding: 20px;
+}
+
+.menu .navbar-expand-lg .navbar-nav .nav-link{
+	font-size: 16px;
+	padding-right: 0.8rem;
+    padding-left: .8rem;
+    margin-left: 1px;
+}
+
+.menu .navbar-expand-lg .navbar-nav .nav-link.active,
+.menu .navbar-expand-lg .navbar-nav .nav-link:hover {
+	color: #F39C12;
+}
